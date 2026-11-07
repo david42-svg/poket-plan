@@ -1,0 +1,13 @@
+{
+  "name": "PocketPlan — Money, with a plan.",
+  "short_name": "PocketPlan",
+  "description": "An offline-first personal money and shopping planner.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f5ef",
+  "theme_color": "#101713",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
