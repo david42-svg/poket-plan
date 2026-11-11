@@ -1,5 +1,5 @@
-const CACHE_NAME = 'pocketplan-shell-v3';
-const APP_SHELL = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE_NAME = 'pocketplan-shell-v033';
+const APP_SHELL = ['./', './index.html', './manifest.json', './icon.svg', './css/style.css', './js/app.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
 });
